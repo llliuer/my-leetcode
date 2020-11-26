@@ -27,3 +27,17 @@ class Solution:
 
         dfs(root)
         return res
+
+#官方题解：
+# class Solution:
+#     def preorderTraversal(self, root: TreeNode) -> List[int]:
+#         def preorder(root: TreeNode):
+#             if not root:
+#                 return
+#             res.append(root.val)
+#             preorder(root.left)
+#             preorder(root.right)
+
+#         res = list()
+#         preorder(root)
+#         return res
